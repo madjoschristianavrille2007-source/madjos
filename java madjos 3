@@ -1,0 +1,9 @@
+public class madjosthree{
+    public static void main(String [] args){
+    int lines = 5;
+
+    for (int i = 1; i <= lines; i++){
+        System.out.println("*".repeat(i));
+    }
+   }
+}
