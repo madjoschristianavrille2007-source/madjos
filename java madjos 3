@@ -1,9 +1,12 @@
-public class madjosthree{
-    public static void main(String [] args){
-    int lines = 5;
-
-    for (int i = 1; i <= lines; i++){
-        System.out.println("*".repeat(i));
+public class Twomadjos
+{
+   public static void main(String[] args) {   
+    for (int i = 1; i <= 5; i++) {
+    for (int j = 1; j <= i; j++) {
+        System.out.print("*");
+        }
+          System.out.println();
+      }
+    
     }
-   }
 }
